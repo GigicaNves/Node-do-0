@@ -12,7 +12,7 @@ server.listen(3332)
 import { fastify } from "fastify";
 //import { DatabaseMemory } from './database-memory.js'
 //import { send } from "process";
-const { send } = require("process");
+//const { send } = require("process");
 
 import { DatabasePostgres } from "./database-postgres.js";
 
